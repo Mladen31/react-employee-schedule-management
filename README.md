@@ -20,3 +20,12 @@ NOTE: The npm start task is alias for npm start -- --env=DEV.
 ##How to Build The build task get app ready for production. The build task include transpilation from ES6 to ES5, concatenation, minification, compression, asset revision, template cache, cdn etc. If there have been no errors when executing the build command, the build should be located in build/dist directory and this build is ready for uploading to the server! To initiate a full build, you simply run the follow task:
 
 $ npm run build
+
+To run test start with:
+
+$ npm test
+NOTE: The npm test task is alias for npm run test-unit -- --browsers=PhantomJS.
+
+To run test against specific browser e.g. Chrome start with:
+
+$ npm test -- --browsers=Chrome
