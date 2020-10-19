@@ -8,7 +8,7 @@ $ npm start
 NOTE: The npm start task is alias for npm start -- --env=DEV. 
 
 ###Production build/
-|- dist --> distribution source code that goes to production | |- fonts/ --> fonts | |- images/ --> image files | |- scripts/ --> js files | | |- main.min-12345.js --> concat, minify angular app js files and cached html templates
+|- dist --> distribution source code that goes to production | |- fonts/ --> fonts | |- images/ --> image files | |- scripts/ --> js files | | |- main.min-12345.js --> concat, minify react app js files and cached html templates
 | |- styles/ --> css files | |- main.min-12345.css --> concat & minify app css files | |- index.html --> app main file |- docs/ --> app documentation
 
 ##Installation & Configuration
